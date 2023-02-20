@@ -1,0 +1,8 @@
+#header {
+  .navbar-item {
+    &.active {
+      background-color: #fafafa;
+      color: #485fc7;
+    }
+  }
+}

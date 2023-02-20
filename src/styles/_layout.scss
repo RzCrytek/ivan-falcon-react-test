@@ -1,0 +1,29 @@
+$primary: #00d1b2;
+
+body {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.is-fit-cover {
+  object-fit: cover;
+}
+
+.drag-drop {
+  &.border-dashed {
+    border-width: 2px;
+    border-style: dashed;
+
+    &.default {
+      border-color: #7a7a7a;
+    }
+
+    &.active {
+      border-color: $primary;
+    }
+
+    &:focus {
+      border-color: $primary;
+    }
+  }
+}
